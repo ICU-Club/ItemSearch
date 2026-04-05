@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="..\..\template.targets" />
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+    <PropertyGroup>
+        <Description>全服物品搜索与批量管理插件</Description>
+    </PropertyGroup>
+</Project>
